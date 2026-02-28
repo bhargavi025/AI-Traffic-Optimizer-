@@ -1,0 +1,8 @@
+In the file AI1.py 
+A code is written which creates 4 ROI i.e NORTH,SOUTH,EAST and WEST.
+It counts vehicles in each ROI and gives the OUtput as following:
+
+0: 416x544 29 cars, 1 bus, 1 truck, 65.7ms
+Speed: 5.4ms preprocess, 65.7ms inference, 171.9ms postprocess per image at shape (1, 3, 416, 544)
+Results saved to runs\detect\predict3
+{'North': {'light': 8, 'heavy': 1, 'two': 0}, 'South': {'light': 6, 'heavy': 0, 'two': 0}, 'East': {'light': 8, 'heavy': 0, 'two': 0}, 'West': {'light': 10, 'heavy': 0, 'two': 0}}
