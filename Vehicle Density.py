@@ -3,7 +3,7 @@ import cv2
 
 def main():
     
-    model = YOLO("C:\\Users\\Bhargavi\\Documents\\yolov8m.pt")
+    model = YOLO("yolov8m.pt")
     
     frame = cv2.imread("D:\\traffic1.jpg")
     print(frame.shape)
@@ -50,3 +50,4 @@ if __name__ == "__main__":
     import multiprocessing
     multiprocessing.freeze_support()
     main()
+
