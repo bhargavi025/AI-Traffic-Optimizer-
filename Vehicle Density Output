@@ -1,0 +1,15 @@
+Below are the results of the code "Vehicle Density.py"
+
+Results ------>
+(400, 544, 3)
+
+0: 416x544 29 cars, 1 bus, 1 truck, 60.2ms
+Speed: 4.1ms preprocess, 60.2ms inference, 136.0ms postprocess per image at shape (1, 3, 416, 544)
+Results saved to runs\detect\predict6
+{'North': {'light': 8, 'heavy': 1, 'two': 0}, 'South': {'light': 6, 'heavy': 0, 'two': 0}, 
+'East': {'light': 8, 'heavy': 0, 'two': 0}, 'West': {'light': 10, 'heavy': 0, 'two': 0}}
+-------------------------------------------------------------------------------------------------
+
+In the above results you can see that region of interest that is the lanes are mentioned as 'North','South','East','West'
+Each lanse count the amount of vehicles are present that is the density of each lanes.
+The 'light','heavy','two' describes the typw of vehicles.
