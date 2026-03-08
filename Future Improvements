@@ -1,1 +1,7 @@
+This model can be made more advance by improvements such as
 
+1. We can Improve the lane detection by implementing self-adjusting ROI's, so the need for coding multiple models for different scenarios will reduce.
+2. This model can be integrated with the existing traffic e-challan system to work in real-time.
+3. The model accuracy can be improved by training it on more larger and diverse dataset.
+4. It can be optimized for faster real-time perfoemance on edge devices.
+5. We can deploy the system using live CCTV camera feeds.
