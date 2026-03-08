@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 # load model
-model = YOLO("C:\\Users\\Bhargavi\\Documents\\yolov8m.pt")
+model = YOLO("yolov8m.pt")
 
 # read image
 image = cv2.imread("D:\\traffic1.jpg")
@@ -33,3 +33,4 @@ print("Cars:", car_count)
 print("Trucks:", truck_count)
 print("Bikes:", bike_count)
 print("Total Vehicles:", total)
+
